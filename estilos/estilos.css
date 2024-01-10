@@ -202,7 +202,7 @@ header {
 }
 
 .imagenPaginas {
-    width: 70%;
+    width: 500px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -317,5 +317,10 @@ li {
     .autorTexto {
         font-size: 19.82px;
     }
-
 }
+
+@media screen and (max-width: 992px) {
+
+    .imagenPaginas{
+        width: 200px;
+    }
