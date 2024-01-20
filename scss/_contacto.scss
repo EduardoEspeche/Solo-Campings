@@ -1,0 +1,12 @@
+.contenedorContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.btn-primary{
+    background-color: $verde;
+    border-color: $verde;
+    color: $beige;
+}

@@ -1,0 +1,72 @@
+.footer {
+    background-color: #31572C;
+
+    .container {
+        background-color: #31572C;
+
+        .row {
+            .col-lg-4 {
+                .redesSociales {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0%;
+                    padding: 16px;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    margin-bottom: 0%;
+                    font-size: 30px;
+
+                    .facebook {
+                        padding-right: 5px;
+                        font-size: 30px;
+                    }
+
+                    .instagram {
+                        padding-left: 5px;
+                    }
+                }
+
+
+                .contacto {
+                    padding-top: 16px;
+                    margin: 0%;
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fefae0;
+                }
+
+                .info {
+                    margin: 0%;
+                    color: #fefae0;
+                }
+
+                .telefono {
+                    color: #fefae0;
+                }
+
+                .autor {
+                    padding-top: 16px;
+                    margin: 0%;
+                    font-size: 18px;
+                    font-weight: bolder;
+                    color: #fefae0;
+                }
+
+                .autorTexto {
+                    color: #fefae0;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .imagenPaginas {
+        width: 200px;
+    }
+}

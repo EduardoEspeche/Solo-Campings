@@ -1,0 +1,90 @@
+header {
+    font-family: $tipografiaPrincipal;
+    background-color: #31572C;
+    margin: 0px;
+
+    .contenedorLogoTitulo {
+        display: flex;
+        justify-content: center;
+        background-color: #fefae0;
+
+        .logoTitulo {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fefae0;
+
+            .logo {
+                .icon {
+                    font-size: 40px;
+                }
+            }
+
+            .titulo {
+                margin: 0 auto;
+                margin-bottom: 0%;
+
+                .h1 {
+                    font-weight: lighter;
+                    font-size: 60px;
+                    margin-bottom: 0rem;
+
+
+                }
+            }
+        }
+    }
+
+    .navbar {
+        margin: 0 auto;
+        padding: 0;
+
+        .container-fluid {
+            background-color: #31572C;
+
+            .navbar-toggler {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                border-color: #fefae0;
+
+                .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28254, 250, 224, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+                }
+            }
+        }
+
+        .collapse {
+            .nav-link {
+
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .nav-link:hover {
+                color: rgb(136, 132, 132);
+            }
+
+            .navbar-nav {
+                background-color: #31572C;
+            }
+
+            .navbar-nav li a {
+                color: #fefae0;
+                font-size: 20px;
+
+            }
+
+            .navbar-collapse {
+                background-color: #31572C;
+                font-size: 20px;
+                width: 70%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
