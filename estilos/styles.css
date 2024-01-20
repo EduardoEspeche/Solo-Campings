@@ -80,7 +80,7 @@ header .navbar .collapse .navbar-collapse {
 .grillaImagenes {
   padding-top: 20px;
   min-height: 100vh;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -94,10 +94,10 @@ header .navbar .collapse .navbar-collapse {
 }
 
 .introduccion {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-top: 20px;
-  width: 90%;
+  width: 80%;
   font-size: 25px;
   margin: 0 auto;
 }
@@ -105,6 +105,7 @@ header .navbar .collapse .navbar-collapse {
 .contenedorMain {
   display: flex;
   justify-content: space-evenly;
+  background-color: #fefae0;
 }
 .contenedorMain .contenedorImagenes .imagenPaginas {
   width: 100%;
@@ -121,7 +122,7 @@ header .navbar .collapse .navbar-collapse {
   padding: 10px;
 }
 .contenedorMain .contenedorBotones .btn-group {
-  padding: 10px;
+  padding: 20px;
 }
 .contenedorMain .contenedorBotones .btn-group .btn {
   border-color: #51a351 #51a351 #387038;
@@ -153,12 +154,22 @@ header .navbar .collapse .navbar-collapse {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  background-color: #fefae0;
 }
 
 .btn-primary {
   background-color: #31572C;
   border-color: #31572C;
   color: #fefae0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #000000;
 }
 
 .footer {
@@ -208,12 +219,6 @@ header .navbar .collapse .navbar-collapse {
 }
 .footer .container .row .col-lg-4 .autorTexto {
   color: #fefae0;
-}
-
-@media screen and (max-width: 900px) {
-  .imagenPaginas {
-    width: 200px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
