@@ -15,25 +15,24 @@ header .contenedorLogoTitulo {
   background-color: #fefae0;
 }
 header .contenedorLogoTitulo .logoTitulo {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 80%;
+  width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fefae0;
 }
 header .contenedorLogoTitulo .logoTitulo .logo .icon {
-  font-size: 40px;
+  font-size: 60px;
 }
 header .contenedorLogoTitulo .logoTitulo .titulo {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
-  margin-bottom: 0%;
 }
 header .contenedorLogoTitulo .logoTitulo .titulo .h1 {
   font-weight: lighter;
-  font-size: 60px;
-  margin-bottom: 0rem;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 header .navbar {
   margin: 0 auto;
@@ -76,28 +75,28 @@ header .navbar .collapse .navbar-collapse {
 .campingsInicio {
   background-color: #fefae0;
 }
-
-.grillaImagenes {
+.campingsInicio .grillaImagenes {
   padding-top: 20px;
-  min-height: 100vh;
-  width: 80%;
+  min-height: 250px;
+  width: 65%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
 }
-.grillaImagenes .imagenDeGrilla {
+.campingsInicio .grillaImagenes .imagenDeGrilla {
   border-radius: 15px;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
-
-.introduccion {
+.campingsInicio .introduccion .contenedorIntroduccion {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 20px;
-  width: 80%;
+  margfin-top: 20px;
+  width: 65%;
   font-size: 25px;
   margin: 0 auto;
 }
@@ -165,11 +164,14 @@ header .navbar .collapse .navbar-collapse {
   padding: 2rem;
   background-color: #fefae0;
 }
-
-.btn-primary {
+.contenedorContacto .btn-primary {
   background-color: #31572C;
   border-color: #31572C;
   color: #fefae0;
+}
+.contenedorContacto .form-check-input:checked {
+  background-color: #31572C;
+  border-color: #31572C;
 }
 
 .btn-primary:hover,

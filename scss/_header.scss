@@ -9,9 +9,7 @@ header {
         background-color: #fefae0;
 
         .logoTitulo {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            width: 80%;
+            width: 65%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,20 +17,20 @@ header {
 
             .logo {
                 .icon {
-                    font-size: 40px;
+                    font-size: 60px;
                 }
             }
 
             .titulo {
+                display: flex;
+                align-items: center;
                 margin: 0 auto;
-                margin-bottom: 0%;
+
 
                 .h1 {
                     font-weight: lighter;
-                    font-size: 60px;
-                    margin-bottom: 0rem;
-
-
+                    font-size: 30px;
+                    margin-bottom: 0px;
                 }
             }
         }

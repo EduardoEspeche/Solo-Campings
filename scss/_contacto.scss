@@ -4,13 +4,19 @@
     align-items: center;
     padding: 2rem;
     background-color: $beige;
+
+    .btn-primary {
+            background-color: $verde;
+            border-color: $verde;
+            color: $beige;
+        }
+    
+        .form-check-input:checked {
+            background-color: $verde;
+            border-color: $verde;
+        }
 }
 
-.btn-primary {
-    background-color: $verde;
-    border-color: $verde;
-    color: $beige;
-}
 
 .btn-primary:hover,
 .btn-primary:focus,
