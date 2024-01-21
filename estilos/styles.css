@@ -119,10 +119,19 @@ header .navbar .collapse .navbar-collapse {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 0px;
+}
+.contenedorMain .contenedorBotones .tituloDropdown {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: bold;
 }
 .contenedorMain .contenedorBotones .btn-group {
   padding: 20px;
+  padding-top: 0%;
 }
 .contenedorMain .contenedorBotones .btn-group .btn {
   border-color: #51a351 #51a351 #387038;
