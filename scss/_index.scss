@@ -6,6 +6,7 @@
         min-height: 250px;
         width: 65%;
         margin: 0 auto;
+        margin-bottom: 10px;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -22,11 +23,11 @@
 
     .introduccion {
         .contenedorIntroduccion {
-            padding-top: 30px;
-            padding-bottom: 30px;
-            margfin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 20px;
             width: 65%;
-            font-size: 25px;
+            font-size: 20px;
             margin: 0 auto;
         }
     }
