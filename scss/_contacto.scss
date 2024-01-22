@@ -1,22 +1,21 @@
 .contenedorContacto {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: map-get($flexbox, justificarCentro);
+    align-items: map-get($flexbox, alinearCentro);
     padding: 2rem;
     background-color: $beige;
 
     .btn-primary {
-            background-color: $verde;
-            border-color: $verde;
-            color: $beige;
-        }
-    
-        .form-check-input:checked {
-            background-color: $verde;
-            border-color: $verde;
-        }
-}
+        background-color: $verde;
+        border-color: $verde;
+        color: $beige;
+    }
 
+    .form-check-input:checked {
+        background-color: $verde;
+        border-color: $verde;
+    }
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
