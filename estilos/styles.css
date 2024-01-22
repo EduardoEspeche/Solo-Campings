@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -22,17 +23,23 @@ header .contenedorLogoTitulo .logoTitulo {
   background-color: #fefae0;
 }
 header .contenedorLogoTitulo .logoTitulo .logo .icon {
-  font-size: 60px;
+  font-size: 50px;
 }
 header .contenedorLogoTitulo .logoTitulo .titulo {
   display: flex;
   align-items: center;
   margin: 0 auto;
 }
-header .contenedorLogoTitulo .logoTitulo .titulo .h1 {
-  font-weight: lighter;
+header .contenedorLogoTitulo .logoTitulo .titulo h1 {
+  font-weight: bolder;
+  margin-bottom: 0;
   font-size: 30px;
-  margin-bottom: 0px;
+}
+@media (max-width: 412px) {
+  header .contenedorLogoTitulo .logoTitulo .titulo h1 {
+    font-size: 25px;
+    /* Tamaño ajustado para pantallas más pequeñas */
+  }
 }
 header .navbar {
   margin: 0 auto;
@@ -80,7 +87,6 @@ header .navbar .collapse .navbar-collapse {
   min-height: 250px;
   width: 65%;
   margin: 0 auto;
-  margin-bottom: 10px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -91,14 +97,13 @@ header .navbar .collapse .navbar-collapse {
   border-radius: 15px;
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 .campingsInicio .introduccion .contenedorIntroduccion {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  marging-top: 20px;
   width: 65%;
-  font-size: 20px;
+  font-size: 25px;
   margin: 0 auto;
 }
 

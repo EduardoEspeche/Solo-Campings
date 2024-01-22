@@ -17,7 +17,7 @@ header {
 
             .logo {
                 .icon {
-                    font-size: 60px;
+                    font-size: 50px;
                 }
             }
 
@@ -26,11 +26,19 @@ header {
                 align-items: center;
                 margin: 0 auto;
 
-
-                .h1 {
-                    font-weight: lighter;
+                h1 {
+                    font-weight: bolder;
+                    margin-bottom: 0;
                     font-size: 30px;
-                    margin-bottom: 0px;
+
+
+                }
+
+                @media (max-width: 412px) {
+                    h1 {
+                        font-size: 25px;
+                        /* Tamaño ajustado para pantallas más pequeñas */
+                    }
                 }
             }
         }
@@ -73,7 +81,6 @@ header {
             .navbar-nav li a {
                 color: #fefae0;
                 font-size: 20px;
-
             }
 
             .navbar-collapse {
