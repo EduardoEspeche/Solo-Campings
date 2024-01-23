@@ -1,51 +1,49 @@
-.main {
-    .section {
-        .contenedorMain {
-            display: flex;
-            justify-content: space-evenly;
-            background-color: $beige;
+    .contenedorMain {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: $beige;
 
-            .contenedorImagenes {
-                .imagenPaginas {
-                    width: 100%;
-                    max-width: 600px;
-                    height: 400px;
-                    padding-bottom: 50px;
-                    padding-top: 50px;
-                    border-radius: $radioBorde;
-                }
+        .contenedorImagenes {
+
+            .imagenPaginas {
+                width: 100%;
+                max-width: 600px;
+                height: 400px;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                border-radius: 10px;
+            }
+        }
+
+        .contenedorBotones {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0px;
+
+            .tituloDropdown {
+                @include padding (10px, 5px);
+                margin: 0%;
+                font-size: 16px;
+                font-weight: bold;
             }
 
-            .contenedorBotones {
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-                padding: 0px;
+            .btn-group {
+                padding: 20px;
+                padding-top: 0%;
 
-                .tituloDropdown {
-                    @include padding (10px, 5px);
-                    margin: 0%;
-                    font-size: 16px;
-                    font-weight: bold;
-                }
-
-                .btn-group {
-                    padding: 20px;
-                    padding-top: 0%;
-
-                    .btn {
-                        border-color: #51a351 #51a351 #387038;
-                        border-top-color: rgb(81, 163, 81);
-                        border-right-color: rgb(81, 163, 81);
-                        border-bottom-color: rgb(56, 112, 56);
-                        Border-left-color: rgb(81, 163, 81);
-                        background: linear-gradient(to right top, #39b54a, #2b8938);
-                    }
+                .btn {
+                    border-color: #51a351 #51a351 #387038;
+                    border-top-color: rgb(81, 163, 81);
+                    border-right-color: rgb(81, 163, 81);
+                    border-bottom-color: rgb(56, 112, 56);
+                    Border-left-color: rgb(81, 163, 81);
+                    background: linear-gradient(to right top, #39b54a, #2b8938);
                 }
             }
         }
     }
-}
+
 
 @media screen and (max-width: 900px) {
     .contenedorMain {
@@ -59,7 +57,7 @@
                 height: auto;
                 @include padding (20px, 0px);
                 padding-right: 20px;
-                border-radius: $radioBorde;
+                border-radius: 10px;
             }
         }
     }
