@@ -6,7 +6,7 @@
 
 header {
   font-family: "Roboto", sans-serif;
-  background-color: #31572C;
+  background-color: #606c38;
   margin: 0px;
 }
 header .contenedorLogoTitulo {
@@ -44,7 +44,7 @@ header .navbar {
   padding: 0;
 }
 header .navbar .container-fluid {
-  background-color: #31572C;
+  background-color: #606c38;
 }
 header .navbar .container-fluid .navbar-toggler {
   margin-top: 10px;
@@ -63,14 +63,14 @@ header .navbar .collapse .nav-link:hover {
   color: rgb(136, 132, 132);
 }
 header .navbar .collapse .navbar-nav {
-  background-color: #31572C;
+  background-color: #606c38;
 }
 header .navbar .collapse .navbar-nav li a {
   color: #fefae0;
   font-size: 20px;
 }
 header .navbar .collapse .navbar-collapse {
-  background-color: #31572C;
+  background-color: #606c38;
   font-size: 20px;
   width: 70%;
   margin-top: 10px;
@@ -138,11 +138,11 @@ header .navbar .collapse .navbar-collapse {
 }
 .contenedorMain .contenedorBotones .btn-group .btn {
   border-color: #51a351 #51a351 #387038;
-  border-top-color: rgb(81, 163, 81);
-  border-right-color: rgb(81, 163, 81);
-  border-bottom-color: rgb(56, 112, 56);
-  Border-left-color: rgb(81, 163, 81);
-  background: linear-gradient(to right top, #39b54a, #2b8938);
+  border-top-color: #606c38;
+  border-right-color: #606c38;
+  border-bottom-color: #283618;
+  Border-left-color: #606c38;
+  background: linear-gradient(to right top, #606c38, #283618);
 }
 
 @media screen and (max-width: 900px) {
@@ -169,13 +169,13 @@ header .navbar .collapse .navbar-collapse {
   background-color: #fefae0;
 }
 .contenedorContacto .btn-primary {
-  background-color: #31572C;
-  border-color: #31572C;
+  background-color: #606c38;
+  border-color: #606c38;
   color: #fefae0;
 }
 .contenedorContacto .form-check-input:checked {
-  background-color: #31572C;
-  border-color: #31572C;
+  background-color: #606c38;
+  border-color: #606c38;
 }
 
 .btn-primary:hover,
@@ -188,10 +188,10 @@ header .navbar .collapse .navbar-collapse {
 }
 
 .footer {
-  background-color: #31572C;
+  background-color: #606c38;
 }
 .footer .container {
-  background-color: #31572C;
+  background-color: #606c38;
 }
 .footer .container .row .col-lg-4 .redesSociales {
   display: flex;
