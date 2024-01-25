@@ -161,6 +161,18 @@ header .navbar .collapse .navbar-collapse {
     border-radius: 10px;
   }
 }
+.contenedorError404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefae0;
+}
+.contenedorError404 .error404 {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
 .contenedorContacto {
   display: flex;
   justify-content: center;
