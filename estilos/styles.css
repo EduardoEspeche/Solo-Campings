@@ -34,11 +34,6 @@ header .contenedorLogoTitulo .logoTitulo .titulo h1 {
   margin-bottom: 0;
   font-size: 30px;
 }
-@media (max-width: 412px) {
-  header .contenedorLogoTitulo .logoTitulo .titulo h1 {
-    font-size: 25px;
-  }
-}
 header .navbar {
   margin: 0 auto;
   padding: 0;
@@ -145,22 +140,6 @@ header .navbar .collapse .navbar-collapse {
   background: linear-gradient(to right top, #606c38, #283618);
 }
 
-@media screen and (max-width: 900px) {
-  .contenedorMain {
-    display: flex;
-    flex-direction: column;
-  }
-  .contenedorMain .contenedorImagenes .imagenPaginas {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    border-radius: 10px;
-  }
-}
 .contenedorError404 {
   display: flex;
   justify-content: center;
@@ -180,14 +159,6 @@ header .navbar .collapse .navbar-collapse {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bolder;
-}
-@media screen and (max-width: 375px) {
-  .contenedorError404 .btn {
-    position: absolute;
-    top: 355px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 }
 
 .contenedorContacto {
@@ -256,6 +227,36 @@ header .navbar .collapse .navbar-collapse {
 }
 .footer .container .row .col-lg-4 .autorTexto {
   color: #fefae0;
+}
+
+@media screen and (max-width: 376px) {
+  header .contenedorLogoTitulo .logoTitulo .titulo h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contenedorMain {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorMain .contenedorImagenes .imagenPaginas {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contenedor .error404 {
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,13 +1,14 @@
-@media screen and (max-width: 375px) {
-    position: absolute;
-    top: 355px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@media (max-width: 412px) {
-    h1 {
-        font-size: 25px;
+@media screen and (max-width: 376px) {
+    header {
+        .contenedorLogoTitulo {
+                .logoTitulo {
+                    .titulo {
+                        h1 {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
     }
 }
 
@@ -25,6 +26,17 @@
                 padding-right: 20px;
                 border-radius: $border-radius;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contenedor {
+        .error404 {
+            position: absolute;
+            top: 355px;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     }
 }
