@@ -1,64 +1,47 @@
-    .contenedorMain {
-        display: flex;
-        justify-content: space-evenly;
-        background-color: $beige;
+.contenedorMain {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $beige;
 
-        .contenedorImagenes {
+    .contenedorImagenes {
+        padding-bottom: 50px;
+        padding-top: 50px;
 
-            .imagenPaginas {
-                width: 100%;
-                max-width: 600px;
-                height: 400px;
-                padding-bottom: 50px;
-                padding-top: 50px;
-                border-radius: $border-radius;
-            }
-        }
+        .imagenPaginas {
+            border-radius: $border-radius;
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
 
-        .contenedorBotones {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            padding: 0px;
 
-            .tituloDropdown {
-                @include padding (10px, 5px);
-                margin: 0%;
-                font-size: 16px;
-                font-weight: bold;
-            }
-
-            .btn-group {
-                padding: 20px;
-                padding-top: 0%;
-
-                .btn {
-                    border-color: #51a351 #51a351 #387038;
-                    border-top-color: #606c38;
-                    border-right-color: #606c38;
-                    border-bottom-color: #283618;
-                    Border-left-color: #606c38;
-                    background: linear-gradient(to right top, #606c38, #283618);
-                }
-            }
         }
     }
 
+    .contenedorBotones {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
 
-// @media screen and (max-width: 900px) {
-//     .contenedorMain {
-//         display: flex;
-//         flex-direction: column;
+        .tituloDropdown {
+            @include padding (10px, 5px);
+            margin: 0%;
+            font-size: 16px;
+            font-weight: bold;
+        }
 
-//         .contenedorImagenes {
-//             .imagenPaginas {
-//                 width: 100%;
-//                 max-width: 600px;
-//                 height: auto;
-//                 @include padding (20px, 0px);
-//                 padding-right: 20px;
-//                 border-radius: $border-radius;
-//             }
-//         }
-//     }
-// }
+        .btn-group {
+            padding: 20px;
+            padding-top: 0%;
+
+            .btn {
+                border-color: #51a351 #51a351 #387038;
+                border-top-color: #606c38;
+                border-right-color: #606c38;
+                border-bottom-color: #283618;
+                Border-left-color: #606c38;
+                background: linear-gradient(to right top, #606c38, #283618);
+            }
+        }
+    }
+}
