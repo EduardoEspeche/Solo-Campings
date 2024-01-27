@@ -45,20 +45,20 @@
     }
 
 
-@media screen and (max-width: 900px) {
-    .contenedorMain {
-        display: flex;
-        flex-direction: column;
+// @media screen and (max-width: 900px) {
+//     .contenedorMain {
+//         display: flex;
+//         flex-direction: column;
 
-        .contenedorImagenes {
-            .imagenPaginas {
-                width: 100%;
-                max-width: 600px;
-                height: auto;
-                @include padding (20px, 0px);
-                padding-right: 20px;
-                border-radius: $border-radius;
-            }
-        }
-    }
-}
+//         .contenedorImagenes {
+//             .imagenPaginas {
+//                 width: 100%;
+//                 max-width: 600px;
+//                 height: auto;
+//                 @include padding (20px, 0px);
+//                 padding-right: 20px;
+//                 border-radius: $border-radius;
+//             }
+//         }
+//     }
+// }

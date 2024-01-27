@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px) {
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 412px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contenedorMain {
+        display: flex;
+        flex-direction: column;
+
+        .contenedorImagenes {
+            .imagenPaginas {
+                width: 100%;
+                max-width: 600px;
+                height: auto;
+                @include padding (20px, 0px);
+                padding-right: 20px;
+                border-radius: $border-radius;
+            }
+        }
+    }
+}
