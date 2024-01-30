@@ -1,57 +1,68 @@
-.footer {
+footer {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
     background-color: $verde;
 
-    .container {
-        background-color: $verde;
+    .footer {
+        width: 80%;
 
-        .row {
-            .col-lg-4 {
-                .redesSociales {
-                    display: flex;
-                    justify-content: map-get($flexbox, justificarCentro);
-                    align-items: map-get($flexbox, alinearCentro);
-                    margin: 0%;
-                    padding: 16px;
-                    padding-top: 16px;
-                    padding-bottom: 16px;
-                    margin-bottom: 0%;
-                    font-size: 30px;
+        .container {
+            background-color: $verde;
 
-                    .facebook {
-                        padding-right: 5px;
+            .row {
+                .col-lg-4 {
+                    .redesSociales {
+                        display: flex;
+                        justify-content: map-get($flexbox, justificarCentro);
+                        align-items: map-get($flexbox, alinearCentro);
+                        margin: 0%;
+                        padding: 20px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        margin-bottom: 0%;
                         font-size: 30px;
+
+                        .facebook {
+                            width: 30px;
+                            height: 30px;
+                            
+                        }
+
+                        .instagram {
+                            width: 30px;
+                            height: auto;
+                        }
                     }
 
-                    .instagram {
-                        padding-left: 5px;
+                    .contacto {
+                        padding-top: 16px;
+                        margin: 0%;
+                        font-size: 18px;
+                        font-weight: bolder;
+                        color: $beige;
                     }
-                }
 
-                .contacto {
-                    padding-top: 16px;
-                    margin: 0%;
-                    font-size: 18px;
-                    font-weight: bolder;
-                    color: $beige;
-                }
+                    .info {
+                        margin: 0%;
+                        color: $beige;
+                    }
 
-                .info {
-                    margin: 0%;
-                    color: $beige;
-                }
+                    .telefono {
+                        color: $beige;
+                    }
 
-                .telefono {
-                    color: $beige;
-                }
+                    .autor {
+                        @extend .contacto
+                    }
 
-                .autor {
-                    @extend .contacto
-                }
-
-                .autorTexto {
-                    color: $beige;
+                    .autorTexto {
+                        color: $beige;
+                    }
                 }
             }
         }
     }
+
+
 }

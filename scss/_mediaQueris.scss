@@ -10,7 +10,6 @@
             }
         }
     }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -39,6 +38,37 @@
             top: 355px;
             left: 50%;
             transform: translate(-50%, -50%);
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .col-lg-4 {
+        .redesSociales {
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+            width: 355px;
+            padding: 0px;
+            margin: auto;
+            padding: auto;
+        }
+
+        .contacto {
+            padding-left: 8px;
+        }
+
+        .info {
+            padding-left: 8px;
+        }
+
+        .telefono {
+            padding-left: 8px;
+            margin-bottom: 0%;
+        }
+
+        .autorTexto {
+            padding-left: 8px;
         }
     }
 }

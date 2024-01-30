@@ -7,15 +7,19 @@
 header {
   font-family: "Roboto", sans-serif;
   background-color: #606c38;
+  max-width: 1366px;
+  width: 100%;
   margin: 0px;
 }
 header .contenedorLogoTitulo {
+  max-width: 1366px;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #fefae0;
 }
 header .contenedorLogoTitulo .logoTitulo {
-  width: 65%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,13 +76,23 @@ header .navbar .collapse .navbar-collapse {
   margin-bottom: 10px;
 }
 
+body {
+  background-color: #283618;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .campingsInicio {
+  max-width: 1366px;
+  width: 100%;
   background-color: #fefae0;
 }
 .campingsInicio .grillaImagenes {
   padding-top: 20px;
   min-height: 250px;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   justify-content: center;
@@ -95,33 +109,36 @@ header .navbar .collapse .navbar-collapse {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 20px;
-  width: 65%;
+  width: 80%;
   font-size: 25px;
   margin: 0 auto;
 }
 
-.contenedorMain {
+main {
+  max-width: 1366px;
+  width: 100%;
+}
+main .contenedorMain {
   display: flex;
   justify-content: space-evenly;
   background-color: #fefae0;
 }
-.contenedorMain .contenedorImagenes {
+main .contenedorMain .contenedorImagenes {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-.contenedorMain .contenedorImagenes .imagenPaginas {
+main .contenedorMain .contenedorImagenes .imagenPaginas {
   border-radius: 10px;
   width: 100%;
-  max-width: 600px;
-  height: 400px;
+  height: auto;
 }
-.contenedorMain .contenedorBotones {
+main .contenedorMain .contenedorBotones {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 0px;
 }
-.contenedorMain .contenedorBotones .tituloDropdown {
+main .contenedorMain .contenedorBotones .tituloDropdown {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -129,11 +146,11 @@ header .navbar .collapse .navbar-collapse {
   font-size: 16px;
   font-weight: bold;
 }
-.contenedorMain .contenedorBotones .btn-group {
+main .contenedorMain .contenedorBotones .btn-group {
   padding: 20px;
   padding-top: 0%;
 }
-.contenedorMain .contenedorBotones .btn-group .btn {
+main .contenedorMain .contenedorBotones .btn-group .btn {
   border-color: #51a351 #51a351 #387038;
   border-top-color: #606c38;
   border-right-color: #606c38;
@@ -189,45 +206,52 @@ header .navbar .collapse .navbar-collapse {
   background-color: #000000;
 }
 
-.footer {
+footer {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
   background-color: #606c38;
 }
-.footer .container {
+footer .footer {
+  width: 80%;
+}
+footer .footer .container {
   background-color: #606c38;
 }
-.footer .container .row .col-lg-4 .redesSociales {
+footer .footer .container .row .col-lg-4 .redesSociales {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0%;
-  padding: 16px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 0%;
   font-size: 30px;
 }
-.footer .container .row .col-lg-4 .redesSociales .facebook {
-  padding-right: 5px;
-  font-size: 30px;
+footer .footer .container .row .col-lg-4 .redesSociales .facebook {
+  width: 30px;
+  height: 30px;
 }
-.footer .container .row .col-lg-4 .redesSociales .instagram {
-  padding-left: 5px;
+footer .footer .container .row .col-lg-4 .redesSociales .instagram {
+  width: 30px;
+  height: auto;
 }
-.footer .container .row .col-lg-4 .contacto, .footer .container .row .col-lg-4 .autor {
+footer .footer .container .row .col-lg-4 .contacto, footer .footer .container .row .col-lg-4 .autor {
   padding-top: 16px;
   margin: 0%;
   font-size: 18px;
   font-weight: bolder;
   color: #fefae0;
 }
-.footer .container .row .col-lg-4 .info {
+footer .footer .container .row .col-lg-4 .info {
   margin: 0%;
   color: #fefae0;
 }
-.footer .container .row .col-lg-4 .telefono {
+footer .footer .container .row .col-lg-4 .telefono {
   color: #fefae0;
 }
-.footer .container .row .col-lg-4 .autorTexto {
+footer .footer .container .row .col-lg-4 .autorTexto {
   color: #fefae0;
 }
 
@@ -260,6 +284,28 @@ header .navbar .collapse .navbar-collapse {
     top: 355px;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 375px) {
+  .col-lg-4 .redesSociales {
+    display: flex;
+    width: 355px;
+    padding: 0px;
+    margin: auto;
+    padding: auto;
+  }
+  .col-lg-4 .contacto, footer .footer .container .row .col-lg-4 .autor {
+    padding-left: 8px;
+  }
+  .col-lg-4 .info {
+    padding-left: 8px;
+  }
+  .col-lg-4 .telefono {
+    padding-left: 8px;
+    margin-bottom: 0%;
+  }
+  .col-lg-4 .autorTexto {
+    padding-left: 8px;
   }
 }
 
