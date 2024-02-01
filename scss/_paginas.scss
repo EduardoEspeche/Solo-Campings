@@ -6,10 +6,13 @@ main {
         display: flex;
         justify-content: space-evenly;
         background-color: $beige;
+        // height: 768px;
 
         .contenedorImagenes {
-            padding-bottom: 50px;
-            padding-top: 50px;
+            display: flex;
+            align-items: center;
+           
+
 
             .imagenPaginas {
                 border-radius: $border-radius;

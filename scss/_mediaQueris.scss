@@ -1,15 +1,34 @@
-@media screen and (max-width: 376px) {
-    header {
-        .contenedorLogoTitulo {
-            .logoTitulo {
-                .titulo {
-                    h1 {
-                        font-size: 25px;
-                    }
-                }
+@media screen and (max-width: 375px) {
+    // header {
+    //     .contenedorLogoTitulo {
+    //         .logoTitulo {
+    //             .titulo {
+    //                 h1 {
+    //                     font-size: 25px;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}
+
+@media screen and (max-width: 1366px) {
+    .contenedorMain {
+        height: 768px;
+    }
+
+    .campingsInicio {
+        .grillaImagenes {
+            width: 335px;
+        }
+
+        .introduccion {
+            .contenedorIntroduccion {
+                width: 335px;
             }
         }
     }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -32,22 +51,40 @@
 }
 
 @media screen and (max-width: 375px) {
-    .contenedor {
-        .error404 {
+    header {
+        .contenedorLogoTitulo {
+            .logoTitulo {
+                .titulo {
+                    h1 {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contenedorMain {
+        height: auto;
+
+        .contenedorImagenes {
+            padding-bottom: 10px;
+        }
+    }
+
+    .contenedorError404 {
+        .btn {
+            height: auto;
+            font-size: 12px;
             position: absolute;
             top: 355px;
             left: 50%;
             transform: translate(-50%, -50%);
         }
     }
-}
 
-@media screen and (max-width: 375px) {
     .col-lg-4 {
         .redesSociales {
             display: flex;
-            // justify-content: center;
-            // align-items: center;
             width: 355px;
             padding: 0px;
             margin: auto;
