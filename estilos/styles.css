@@ -243,7 +243,7 @@ footer .footer .container .row .col-lg-4 .redesSociales .ig .instagram {
 footer .footer .container .row .col-lg-4 .contacto, footer .footer .container .row .col-lg-4 .autor {
   padding-top: 16px;
   margin: 0%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   color: #fefae0;
 }
@@ -283,7 +283,7 @@ footer .footer .container .row .col-lg-4 .autorTexto {
 }
 @media screen and (max-width: 375px) {
   header .contenedorLogoTitulo .logoTitulo .titulo h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .contenedorMain {
     height: 768px;
@@ -295,7 +295,10 @@ footer .footer .container .row .col-lg-4 .autorTexto {
     width: 335px;
   }
   .campingsInicio .introduccion .contenedorIntroduccion {
+    font-size: 16px;
     width: 335px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .contenedorMain {
     height: auto;
@@ -304,6 +307,7 @@ footer .footer .container .row .col-lg-4 .autorTexto {
     width: 3px;
   }
   .contenedorMain .campingsInicio .introduccion .contenedorIntroduccion {
+    font-size: 16px;
     width: 335px;
   }
   .contenedorContacto {
