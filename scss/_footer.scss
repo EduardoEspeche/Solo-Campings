@@ -1,13 +1,12 @@
 footer {
     width: 100%;
-    max-width: 1366px;
-    margin: 0 auto;
-    background-color: $verde;
 
     .footer {
-        width: 80%;
+        width: 100%;
+        background-color: $verde;
 
         .container {
+
             background-color: $verde;
 
             .row {
@@ -23,15 +22,21 @@ footer {
                         margin-bottom: 0%;
                         font-size: 30px;
 
-                        .facebook {
+                        .fb {
                             width: 30px;
                             height: 30px;
-                            
+                            .facebook{
+                                height: 100%;
+                            }
+
                         }
 
-                        .instagram {
+                        .ig {
                             width: 30px;
-                            height: auto;
+                            height: 30px;
+                            .instagram{
+                                height: 100%;
+                            }
                         }
                     }
 
@@ -63,6 +68,4 @@ footer {
             }
         }
     }
-
-
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: map-get($flexbox, justificarCentro);
     align-items: map-get($flexbox, alinearCentro);
+    height: 768px;
     padding: 2rem;
     background-color: $beige;
 

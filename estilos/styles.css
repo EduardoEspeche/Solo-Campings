@@ -7,12 +7,10 @@
 header {
   font-family: "Roboto", sans-serif;
   background-color: #606c38;
-  max-width: 1366px;
   width: 100%;
   margin: 0px;
 }
 header .contenedorLogoTitulo {
-  max-width: 1366px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -87,14 +85,13 @@ body {
 }
 
 .campingsInicio {
-  max-width: 1366px;
   width: 100%;
   background-color: #fefae0;
 }
 .campingsInicio .grillaImagenes {
   padding-top: 20px;
   min-height: 250px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   display: grid;
   justify-content: center;
@@ -111,13 +108,12 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 20px;
-  width: 80%;
+  width: 70%;
   font-size: 25px;
   margin: 0 auto;
 }
 
 main {
-  max-width: 1366px;
   width: 100%;
 }
 main .contenedorMain {
@@ -186,6 +182,7 @@ main .contenedorMain .contenedorBotones .btn-group .btn {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 768px;
   padding: 2rem;
   background-color: #fefae0;
 }
@@ -210,12 +207,10 @@ main .contenedorMain .contenedorBotones .btn-group .btn {
 
 footer {
   width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-  background-color: #606c38;
 }
 footer .footer {
-  width: 80%;
+  width: 100%;
+  background-color: #606c38;
 }
 footer .footer .container {
   background-color: #606c38;
@@ -231,13 +226,19 @@ footer .footer .container .row .col-lg-4 .redesSociales {
   margin-bottom: 0%;
   font-size: 30px;
 }
-footer .footer .container .row .col-lg-4 .redesSociales .facebook {
+footer .footer .container .row .col-lg-4 .redesSociales .fb {
   width: 30px;
   height: 30px;
 }
-footer .footer .container .row .col-lg-4 .redesSociales .instagram {
+footer .footer .container .row .col-lg-4 .redesSociales .fb .facebook {
+  height: 100%;
+}
+footer .footer .container .row .col-lg-4 .redesSociales .ig {
   width: 30px;
-  height: auto;
+  height: 30px;
+}
+footer .footer .container .row .col-lg-4 .redesSociales .ig .instagram {
+  height: 100%;
 }
 footer .footer .container .row .col-lg-4 .contacto, footer .footer .container .row .col-lg-4 .autor {
   padding-top: 16px;
@@ -257,15 +258,9 @@ footer .footer .container .row .col-lg-4 .autorTexto {
   color: #fefae0;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 5000px) {
   .contenedorMain {
     height: 768px;
-  }
-  .campingsInicio .grillaImagenes {
-    width: 335px;
-  }
-  .campingsInicio .introduccion .contenedorIntroduccion {
-    width: 335px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -291,10 +286,28 @@ footer .footer .container .row .col-lg-4 .autorTexto {
     font-size: 25px;
   }
   .contenedorMain {
-    height: auto;
+    height: 768px;
   }
   .contenedorMain .contenedorImagenes {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .campingsInicio .grillaImagenes {
+    width: 335px;
+  }
+  .campingsInicio .introduccion .contenedorIntroduccion {
+    width: 335px;
+  }
+  .contenedorMain {
+    height: auto;
+  }
+  .contenedorMain .campingsInicio .grillaImagenes {
+    width: 3px;
+  }
+  .contenedorMain .campingsInicio .introduccion .contenedorIntroduccion {
+    width: 335px;
+  }
+  .contenedorContacto {
+    height: auto;
   }
   .contenedorError404 .btn {
     height: auto;

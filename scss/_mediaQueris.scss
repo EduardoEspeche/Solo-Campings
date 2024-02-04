@@ -1,34 +1,7 @@
-@media screen and (max-width: 375px) {
-    // header {
-    //     .contenedorLogoTitulo {
-    //         .logoTitulo {
-    //             .titulo {
-    //                 h1 {
-    //                     font-size: 25px;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-}
-
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 5000px) {
     .contenedorMain {
         height: 768px;
     }
-
-    .campingsInicio {
-        .grillaImagenes {
-            width: 335px;
-        }
-
-        .introduccion {
-            .contenedorIntroduccion {
-                width: 335px;
-            }
-        }
-    }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -64,11 +37,43 @@
     }
 
     .contenedorMain {
-        height: auto;
+        height: 768px;
 
         .contenedorImagenes {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
         }
+    }
+
+    .campingsInicio {
+        .grillaImagenes {
+            width: 335px;
+        }
+
+        .introduccion {
+            .contenedorIntroduccion {
+                width: 335px;
+            }
+        }
+    }
+
+    .contenedorMain {
+        height: auto;
+
+        .campingsInicio {
+            .grillaImagenes {
+                width: 3px;
+            }
+
+            .introduccion {
+                .contenedorIntroduccion {
+                    width: 335px;
+                }
+            }
+        }
+    }
+
+    .contenedorContacto {
+        height: auto;
     }
 
     .contenedorError404 {

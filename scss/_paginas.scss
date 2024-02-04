@@ -1,25 +1,21 @@
 main {
-    max-width: 1366px;
+    // max-width: 1366px;
     width: 100%;
 
     .contenedorMain {
         display: flex;
         justify-content: space-evenly;
         background-color: $beige;
-        // height: 768px;
 
         .contenedorImagenes {
             display: flex;
             align-items: center;
-           
-
 
             .imagenPaginas {
                 border-radius: $border-radius;
                 
                 width: 100%;
                 height: auto;
-
             }
         }
 
@@ -51,5 +47,4 @@ main {
             }
         }
     }
-
 }

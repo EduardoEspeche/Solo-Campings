@@ -7,14 +7,13 @@ body {
 }
 
 .campingsInicio {
-    max-width: 1366px;
     width: 100%;
     background-color: $beige;
 
     .grillaImagenes {
         padding-top: 20px;
         min-height: 250px;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         display: grid;
         justify-content: map-get($flexbox, justificarCentro);
@@ -34,7 +33,7 @@ body {
             padding-top: 30px;
             padding-bottom: 30px;
             margin-top: 20px;
-            width: 80%;
+            width: 70%;
             font-size: 25px;
             margin: 0 auto;
         }
