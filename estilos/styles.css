@@ -91,7 +91,7 @@ body {
 .campingsInicio .grillaImagenes {
   padding-top: 20px;
   min-height: 250px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: grid;
   justify-content: center;
@@ -107,8 +107,7 @@ body {
 .campingsInicio .introduccion .contenedorIntroduccion {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 20px;
-  width: 70%;
+  width: 60%;
   font-size: 25px;
   margin: 0 auto;
 }
